@@ -85,7 +85,7 @@
 .proimg1 {
     position: relative;
     top: -150px;
-    background-image: url(./images/a6ef0ed09c9ee6caadf63973ce148fd4-removebg-preview.png);
+    background-image: url(a6ef0ed09c9ee6caadf63973ce148fd4-removebg-preview.png);
     height: 400px;
     background-position: center;
     background-size: contain;
@@ -94,7 +94,7 @@
 .proimg2 {
     position: relative;
     top: -150px;
-    background-image: url(./images/png-transparent-modern-sofa-single-sofa-modern-furniture-thumbnail-removebg-preview.png);
+    background-image: url(png-transparent-modern-sofa-single-sofa-modern-furniture-thumbnail-removebg-preview.png);
     height: 400px;
     background-position: center;
     background-size: contain;
@@ -104,7 +104,7 @@
 .proimg3 {
     position: relative;
     top: -150px;
-    background-image: url(./images/26322-en-fiber-soft-armchair-wood-base-ecriture-240-oak-muuto-hi-res.webp);
+    background-image: url(26322-en-fiber-soft-armchair-wood-base-ecriture-240-oak-muuto-hi-res.webp);
     height: 400px;
     background-position: center;
     width: 100%;
@@ -250,13 +250,13 @@
 }
 
 #product .prod-img{
-    background-image: url(./images/png-transparent-modern-sofa-single-sofa-modern-furniture-thumbnail-removebg-preview.png);
+    background-image: url(png-transparent-modern-sofa-single-sofa-modern-furniture-thumbnail-removebg-preview.png);
     height: 150px;
     background-size: contain;
 }
 
 #product .prod-img1{
-    background-image: url(./images/modern-furniture-chair-11549908872myaz42l5fs-removebg-preview.png);
+    background-image: url(modern-furniture-chair-11549908872myaz42l5fs-removebg-preview.png);
     height: 150px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -264,7 +264,7 @@
 }
 
 #product .prod-img2{
-    background-image: url(./images/png-transparent-chair-furniture-dining-room-eetkamerstoel-couch-chair-angle-kitchen-furniture-removebg-preview.png);
+    background-image: url(png-transparent-chair-furniture-dining-room-eetkamerstoel-couch-chair-angle-kitchen-furniture-removebg-preview.png);
     height: 150px;
     background-size: contain;
     background-repeat: no-repeat;
