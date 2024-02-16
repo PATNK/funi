@@ -1,0 +1,390 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:wght@200..900&display=swap);
+
+#header {
+    background: rgb(3, 63, 3);
+}
+
+.navbar-brand {
+    font-size: 2.8em;
+    font-family: Lato;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.nav-item .nav-link {
+    font-size: 13pt;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .active {
+    border-bottom: 2px solid yellow;
+}
+
+.nav-item .nav-link {
+    font-size: 13pt;
+}
+
+.showcase h1 {
+    color: #fff;
+    font-size: 4em;
+    font-family: Lato;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.showcase p {
+    color: #cccaca;
+
+}
+
+
+
+.showcase img:first-child {
+    filter: drop-shadow(1px 1px 10px rgba(o, 0, 0, 0.5));
+    z-index: 1;
+    position: relative;
+
+}
+
+.showcase img:last-child {
+    position: absolute;
+    top: 2000;
+    right: 130px;
+}
+
+.showbtn button:first-child {
+    background: rgb(225, 217, 0);
+    box-shadow: 2px 2px 5pa rgba(o, 0, 0, 0.5);
+    padding: 12px 40px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+.showbtn button:first-child:hover {
+    background: none;
+    border: 2px solid rgb(255, 217, 0);
+}
+
+.showbtn button:last-child {
+    box-shadow: 2px 2px 5px rgba(o, 0, 0, 0.5);
+    padding: 12px 40px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 12pt;
+    color: white;
+}
+
+.showbtn button:last-child:hover {
+    background: rgba(225, 225, 225, 0.5);
+    border: none;
+}
+
+.proimg1 {
+    position: relative;
+    top: -150px;
+    background-image: url(./images/a6ef0ed09c9ee6caadf63973ce148fd4-removebg-preview.png);
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+}
+
+.proimg2 {
+    position: relative;
+    top: -150px;
+    background-image: url(./images/png-transparent-modern-sofa-single-sofa-modern-furniture-thumbnail-removebg-preview.png);
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.proimg3 {
+    position: relative;
+    top: -150px;
+    background-image: url(./images/26322-en-fiber-soft-armchair-wood-base-ecriture-240-oak-muuto-hi-res.webp);
+    height: 400px;
+    background-position: center;
+    width: 100%;
+}
+
+.pro-box {
+    position: relative;
+    border-radius: 20px;
+    height: 350px;
+    top: 300px;
+
+}
+
+#products {
+    margin-top: -100px;
+}
+
+.pro-box h5,
+.pro-box p {
+    position: relative;
+    top: -150px;
+    text-align: center;
+}
+
+.pro-box:hover {
+    background-color: #cccaca4b;
+    transition: .4s linear;
+
+    .plus {
+        display: block;
+    }
+}
+
+.jumb {
+    margin-top: 17%;
+}
+
+.jumb a {
+    background: black;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.pro-box h1,
+.pro-box h5 {
+    font-family: Lato;
+}
+
+
+.plus {
+    width: fit-content;
+    margin: auto;
+    background: black;
+    text-align: center;
+    color: #cccaca;
+    padding: 1px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -150px;
+    display: none;
+    cursor: pointer;
+}
+
+#chooseus h1 {
+    font-family: Lato;
+    font-weight: 600;
+    padding-top: 70px;
+
+}
+
+#chooseus p {
+    color: #6e6e6e;
+}
+
+.choosen p {
+    color: #6e6e6e;
+}
+.choosen h5 {
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.choosen p{
+    font-family: Lato;
+    font-weight: #525252;
+}
+.choosen i {
+    font-size: 3em;
+}
+
+#chooseus img:last-child{
+    position: relative;
+    margin-top: -150px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+#chooseus img:first-child{
+    margin-top: 100px;
+}
+
+.mid{
+    position: relative;
+    width: 90%;
+    margin: -100px 10% 0px 10% ;
+    border-radius: 20px;
+}
+
+.last{
+    position: relative;
+    margin: -200px 0px 0px 300px;
+    border-radius: 20px;
+}
+
+.imge img{
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#services a{
+    background: black;
+    color: white;
+    padding: 12px 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#services ul{
+    list-style-type: circle;
+}
+
+#services h1{
+    font-family: Lato;
+}
+
+#services p{
+    color: #525252;
+}
+
+#product .prod-img{
+    background-image: url(./images/png-transparent-modern-sofa-single-sofa-modern-furniture-thumbnail-removebg-preview.png);
+    height: 150px;
+    background-size: contain;
+}
+
+#product .prod-img1{
+    background-image: url(./images/modern-furniture-chair-11549908872myaz42l5fs-removebg-preview.png);
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#product .prod-img2{
+    background-image: url(./images/png-transparent-chair-furniture-dining-room-eetkamerstoel-couch-chair-angle-kitchen-furniture-removebg-preview.png);
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#h6{
+    font-size: 1.2em;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+#product p{
+    font-size: 10pt;
+    color: #525252;
+}
+
+#product a{
+    color: #6e6e6e;
+    font-size: 10pt;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#product a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #252525;
+    color: white;
+}
+
+footer h5{
+    font-size: 1.2em;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+footer p{
+    font-size: 11pt;
+    color: #fff4f4;
+}
+
+footer ul{
+    list-style-type: none;
+    display: inline;
+    font-size: 11pt;
+}
+
+footer ul li a{
+    color: white;
+    font-size: 11pt;
+    line-height: 1.2;
+}
+
+footer i{
+    padding: 5px;
+}
+
+.footb h4{
+    font-family: Lato;
+    color: #6e6e6e;
+    font-weight: 100;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.footb span{
+    color: red;
+}
+
+@media  screen and (max-width:600px) {
+    .showcase img:last-child {
+        display: none;
+    }
+    #products h1{
+        
+        margin-top: 100px;
+    
+    }
+    #chooseus h1{
+        margin-top: 200px;
+    }
+    .proimg1 {
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    
+    }
+    .proimg2 {
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    
+    }
+    .proimg3 {
+        background-repeat: no-repeat;
+        margin-top: 100px;
+    
+    }
+    #chooseus{
+     
+    text-align: center;
+    }
+    .mid {
+        margin: -100px 3% 0px 3%;
+    }
+    
+    .last {
+        margin: 50px 0px 0px 0px;
+        width: 80%;
+    }
+    #product .prod-img{
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #product .prod-img2{
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #product{
+        text-align: center;
+    }
+    
+    }
